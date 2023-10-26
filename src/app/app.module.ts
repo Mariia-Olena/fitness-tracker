@@ -13,8 +13,10 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { CurrentTrainingComponent } from './training/current-training/current-training.component';
 import { PastTrainingComponent } from './training/past-training/past-training.component';
 import { TrainingComponent } from './training/training.component';
-
-
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NewTrainingComponent } from './training/new-training/new-training.component';
+import { StopTrainingComponent } from './training/current-training/stop-training.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,11 @@ import { TrainingComponent } from './training/training.component';
     SignupComponent,
     CurrentTrainingComponent,
     PastTrainingComponent,
-    TrainingComponent
+    TrainingComponent,
+    HeaderComponent,
+    SidenavListComponent,
+    NewTrainingComponent,
+    StopTrainingComponent
   ],
   imports: [
     BrowserModule,
